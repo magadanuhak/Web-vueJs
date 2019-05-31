@@ -1,0 +1,17 @@
+h4{
+    padding-left:4px;
+}
+.configName{
+    font-family:"Roboto Lt";
+}
+.cwhite{
+    color:white!important;
+}
+.ram_card .card, .cpu_card .card{
+    position:absolute;
+    border:solid 1px red;
+}
+.unCollaps{
+    position: inherit!important;
+    border: none!important;
+}

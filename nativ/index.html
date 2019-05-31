@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Configurator PC</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <main class="main row">
+    <aside class="col-lg-3 col-md-4 col-12">
+      <h4 class="">Configurare PC</h4>
+      <hr>
+      <div class="section optionsGroup ">
+        <div class="md-form">
+          <div class="input-field col s18">
+            <input placeholder="Alege un titlu" id="title" type="text" class="validate">
+            <label for="title">Titlu Configuratie</label>
+          </div>
+        </div>
+        <div class="input-field motherboardSlot col s12">
+        </div>
+        <div id="" class=" cpuSlot input-field  col s12">
+        </div>
+
+        <div class="input-field col ramSlot s12">
+
+        </div>
+        <div class="input-field col gpuSlot s12">
+        </div>
+        <div class="input-field col memSlot s12">
+        </div>
+        <div class="input-field col caseSlot s12">
+        </div>
+
+        <!--<div class="input-field col s12">-->
+          <!--<label>-->
+            <!--<input type="checkbox" class="filled-in" checked="checked" />-->
+            <!--<span>Cooler</span>-->
+          <!--</label>-->
+        <!--</div>-->
+        <div class="input-field col s12">
+          <a class="waves-effect waves-light saveBtn btn-large" id="saveBtn"><i class="material-icons left">+</i>Salveaza Setup</a>
+        </div>
+
+      </div>
+      <div class="input-field col s12">
+        <a class="waves-effect waves-light resetBtn btn-large" id="resetBtn"><i class="material-icons left">()</i>Reseteaza Setup</a>
+      </div>
+    </aside>
+    <section class="col-lg-9 col-md-8 col-12">
+      <header>
+        <span class="totalPrice cwhite badge red ">Pret total: <span id="totalPrice">0</span> Lei</span>
+        <h4 id="configName">Denumire Setup</h4>
+
+      </header>
+      <div class="row cards">
+        <div class="col-12 col-md-4 col-lg-3 s m7 oc cpu_card ">
+          <!--<div class="card">-->
+            <!--<div class="card-image">-->
+              <!--<img src="img/CPU/1.png">-->
+            <!--</div>-->
+            <!--<div class="card-content">-->
+              <!--<div class="card-title">Ryzen 3</div>-->
+              <!--<p>Socket AM4</p>-->
+              <!--<p>Frequence 3.5</p>-->
+              <!--<p>Threads 4</p>-->
+              <!--<span class="price cwhite badge red ">1500 Lei</span>-->
+              <!--<span class="quantity">-->
+                <!--<p class="range-field">-->
+                  <!--<input type="range" id="test5" min="1" max="100" value="1" />-->
+                <!--</p>-->
+              <!--</span>-->
+            <!--</div>-->
+          <!--</div>-->
+        </div>
+        <div class="col-12 col-md-4 col-lg-3 s m7 oc motherboard_card">
+        </div>
+        <div class="col-12 col-md-4 col-lg-3 s m7 oc ram_card collaps">
+        </div>
+        <div class="col-12 col-md-4 col-lg-3 s m7 oc mem_card">
+        </div>
+        <div class="col-12 col-md-12 col-lg-12 s m7 oc case_card">
+        </div>
+        <div class="col-12 col-md-4 col-lg-3 s m7 oc power_card">
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="js/Computer.js"></script>
+  <script>
+      let computer = new Computer();
+
+  </script>
+  <script src="js/Card.js"></script>
+  <script>
+
+      let card = new Card();
+  </script>
+  <script src="js/Select.js"></script>
+  <script>
+
+      let select = new Select();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+{
+  "components" : {
+    "cpu": {
+      "cpus": [
+        {
+          "name": "Ryzen 3",
+          "socket": "AM4",
+          "cores": 4,
+          "threads": 4,
+          "frequency": 3.5,
+          "img": "CPU/2.png",
+          "price": 2300
+        },
+        {
+          "name": "Core i3 8100",
+          "socket": "S1151",
+          "cores": 4,
+          "threads": 4,
+          "frequency": 3.7,
+          "img": "CPU/5.png",
+          "price": 2950
+        },
+        {
+          "name": "Core™ i9-9900K",
+          "socket": "S1151",
+          "cores": 8,
+          "threads": 16,
+          "frequency": 5,
+          "img": "CPU/8.jpg",
+          "price": 12500
+        },
+        {
+          "name": "Core i7-9700K",
+          "socket": "S1151",
+          "cores": 8,
+          "threads": 8,
+          "frequency": 4.9,
+          "img": "CPU/7.jpg",
+          "price": 7500
+        },
+        {
+          "name": "Ryzen 7",
+          "socket": "AM4",
+          "cores": 8,
+          "threads": 16,
+          "frequency": 5,
+          "img": "CPU/6.jpg",
+          "price": 6300
+        }
+      ],
+      "id": "cpu"
+    },
+    "motherboard": {
+      "motherboards": [
+        {
+          "name": "Asus TUF GAMING PLUS / AM4 / 2CPU ",
+          "socket": "AM4",
+          "ddr": 4,
+          "rams": 2,
+          "format": "atx",
+          "img": "MOTHERBOARD/1.png",
+          "price": 2500,
+          "cpus": 2
+        },
+        {
+          "name": "Gigabyte Gaming X / AM4 / 1CPU",
+          "socket": "AM4",
+          "ddr": 3,
+          "rams": 4,
+          "cpus": 1,
+          "format": "mAtx",
+          "img": "MOTHERBOARD/3.jpg",
+          "price": 2400
+        },
+        {
+          "name": "MSI / S1151 / 1CPU",
+          "socket": "S1151",
+          "ddr": 3,
+          "rams": 2,
+          "cpus": 1,
+          "format": "atx",
+          "img": "MOTHERBOARD/2.jpg",
+          "price": 2300
+        },
+        {
+          "name": "Aorus Z390 PRO / S1151/ 2CPU",
+          "socket": "S1151",
+          "ddr": 4,
+          "rams": 4,
+          "cpus": 2,
+          "format": "Matx",
+          "img": "MOTHERBOARD/4.jpg",
+          "price": 5400
+        }
+      ],
+      "id": "motherboard"
+    },
+    "ram": {
+      "rams": [
+        {
+          "name": "HyperX 4G",
+          "ddr": 3,
+          "capacity": 4,
+          "img": "RAM/2.jpg",
+          "price": 920
+        },
+        {
+          "name": "Evo Potener 8G",
+          "ddr": 4,
+          "capacity": 8,
+          "img": "RAM/1.jpg",
+          "price": 1520
+        },
+        {
+          "name": "Gigabute 16G",
+          "ddr": 3,
+          "capacity": 16,
+          "img": "RAM/5.jpg",
+          "price": 3250
+        },
+        {
+          "name": "HyperX Predator 16G",
+          "ddr": 4,
+          "capacity": 16,
+          "img": "RAM/6.jpg",
+          "price": 3100
+        }
+      ],
+      "id": "ram"
+    },
+    "mem": {
+      "mems": [
+        {
+          "name": "SSD GOOD RAM 120GB",
+          "type": "ssd",
+          "img": "SSD/1.jpg",
+          "capacity": "120",
+          "price": 800
+        },
+        {
+          "name": "SSD WD Grenn 250GB",
+          "type": "ssd",
+          "img": "SSD/2.jpg",
+          "capacity": "120",
+          "price": 1400
+        },
+        {
+          "name": "HDD SEAGATE 10TB",
+          "type": "hdd",
+          "img": "HDD/2.png",
+          "capacity": "10000",
+          "price": 3670
+        },
+        {
+          "name": "WD GOLD 12TB",
+          "type": "hdd",
+          "img": "HDD/3.png",
+          "capacity": "12000",
+          "price": 4243
+        }
+      ],
+      "id": "mem"
+    },
+    "case": {
+      "cases": [
+        {
+          "name": "Segotep MX1",
+          "type": "atx",
+          "img": "CASE/7.jpg",
+          "price": 3200
+        },
+        {
+          "name": "SOHO MX1",
+          "type": "MAtx",
+          "img": "CASE/4.jpg",
+          "price": 3200
+        },
+        {
+          "name": "Game Max S400",
+          "type": "atx",
+          "img": "CASE/6.jpg",
+          "price": 3200
+        },
+        {
+          "name": "Deepcol QX12",
+          "type": "atx",
+          "img": "CASE/3.jpg",
+          "price": 3200
+        }
+      ],
+      "id": "case"
+    }
+  }
+}
